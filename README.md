@@ -1,6 +1,10 @@
 # partition-list
 class Solution {
 public:
+
+
+
+
     ListNode* partition(ListNode* head, int x) {
         ListNode* smallerH = NULL, *smallerL = NULL;
         ListNode *greaterL = NULL, *greaterH = NULL;
